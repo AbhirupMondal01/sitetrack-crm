@@ -1,6 +1,7 @@
+import '@expo/metro-runtime';
 import { registerRootComponent } from 'expo';
 import App from './App';
 
-// This is the bridge that tells Expo to load App.js instead of the 'app' folder
-// It ensures that your CRM dashboard is the first thing the user sees.
+// This file is the critical entry point bridge.
+// The '@expo/metro-runtime' import is mandatory for preventing the white screen error on web.
 registerRootComponent(App);

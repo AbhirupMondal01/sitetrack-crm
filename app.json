@@ -3,6 +3,7 @@
     "name": "SiteTrack CRM",
     "slug": "sitetrack-crm",
     "version": "1.0.0",
+    "scheme": "sitetrack-crm",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,7 +26,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "bundler": "metro"
+      "bundler": "metro",
+      "output": "static"
     },
     "experiments": {
       "typedRoutes": false
